@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7cdaef;
+    padding-top: 104px;
+}
+
+
+.container{
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+h1{
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #ffffff;
+   
+}
+
+h2{
+    font-family: 'Play', sans-serif;
+    font-weight: 700; 
+    font-size: 32px; 
+    line-height: 37px;
+    color: #ffffff;
+    padding-top: 10px;
+    
+}
+
+p{
+    font-family: 'Play', sans-serif;
+    font-weight: 400; 
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    padding: 24px 0 26px;
+}
+
+.blue{
+position: relative;
+background-color: rgba(14, 73, 126, 0.7);
+padding: 99px 78px 177px;
+color: #ffffff;
+}
+
+.around1{
+    position: absolute;
+    width: 340px;
+    right: -159px;
+    top: -58px;
+    z-index: 1;
+}
+
+.around3{
+    position: absolute;
+    width: 468px;
+    z-index: -1;
+    right: -208px;
+    top: 31%;
+}
+ 
+.around2{
+    position: absolute;
+    z-index: -1;
+    width: 363px;
+    left: -209px;
+    top: 9%;
+}
+
+.grass{
+    background-image: url(./images/grass.png);
+    width: 100%;
+    height: 132px;
+    background-position: repeat;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    position:fixed;
+}
+
+ img{
+    width: 118px;
+    margin-right: 10px;
+    padding-bottom: 66px;
+}
+
+.firstbird{
+    
+    width: 118px;
+    margin-right: 10px;
+    padding-top: 51px;
+    padding-bottom: 66px;
+}
+
+
+
